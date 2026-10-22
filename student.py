@@ -1,10 +1,6 @@
-def get_student(name, course):
+def get_student_details(name, course, year):
     return {
         "name": name,
-        "course": course
+        "course": course,
+        "year": year
     }
-
-
-if __name__ == "__main__":
-    student = get_student("Jyothi", "Computer Science")
-    print(student)
